@@ -2,7 +2,7 @@ const { Configuration, OpenAIApi } = require("openai");
 const cosineSimilarity = require("compute-cosine-similarity");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: process.env.API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 

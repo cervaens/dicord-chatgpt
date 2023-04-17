@@ -37,5 +37,5 @@ client.on(Events.MessageCreate, async (message) => {
 });
 
 client.login(
-  "MTA5NjA3OTAxMTc5ODU4MTI4OA.Gt-jp1.21bjLG3veabK5EmTBvRmJYHC46msL3Tdg3T658"
+  process.env.BOT_TOKEN,
 );
